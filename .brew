@@ -1,0 +1,36 @@
+#!/bin/bash
+
+sudo -v # ask for password only at the beginning
+
+brew update
+brew upgrade
+brew tap homebrew/versions
+brew tap phinze/homebrew-cask
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+brew install mackup
+
+brew cask install google-chrome
+brew cask install picturelife
+brew cask install alfred
+brew cask alfred link
+brew cask install clamxav
+brew cask install diffmerge
+brew cask install dropbox
+brew cask install evernote
+brew cask install transmission
+brew cask install sequel-pro
+brew cask install vlc
+brew cask install royal-tsx
+brew cask install transmit
+brew cask install macpardeluxe
+brew cask install firefox
+brew cask install lastpass-universal
+brew cask install skitch
+brew cask install skype
+brew cask install spotify
+brew cask install the-unarchiver
+brew cleanup
+
+
+
